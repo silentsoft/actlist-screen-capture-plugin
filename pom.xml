@@ -10,6 +10,11 @@
 			<url>http://nexus.silentsoft.org/repository/maven-releases</url>
 		</repository>
 	</repositories>
+	<parent>
+		<groupId>org.silentsoft</groupId>
+		<artifactId>actlist-plugin-sdk</artifactId>
+		<version>1.0.0</version>
+	</parent>
 	<properties>
 		<!-- Generic properties (Warning : DO NOT REMOVE) -->
 		<java.version>1.8</java.version>
@@ -38,6 +43,7 @@
 			<groupId>org.silentsoft</groupId>
 			<artifactId>actlist-plugin</artifactId>
 			<version>${actlist.plugin.version}</version>
+			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 </project>
