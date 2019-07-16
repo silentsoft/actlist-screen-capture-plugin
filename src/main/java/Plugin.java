@@ -33,7 +33,7 @@ public class Plugin extends ActlistPlugin {
 		super("Screen Capture");
 		
 		setPluginVersion("1.0.0");
-		setPluginAuthor("silentsoft.org", URI.create("https://github.com/silentsoft/actlist-plugin-screen-capture"));
+		setPluginAuthor("silentsoft.org", URI.create("https://github.com/silentsoft/actlist-screen-capture-plugin"));
 		setPluginUpdateCheckURI(URI.create("http://actlist.silentsoft.org/api/plugin/5d58a0f6/update/check"));
 		
 		setOneTimePlugin(true);
